@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>CounterThread</name>
+=======
+	<name>Eliza</name>
+>>>>>>> 8cb86ce1e128ccb2ddb056d5fb4ceb15689211c6
 	<comment></comment>
 	<projects>
 	</projects>
