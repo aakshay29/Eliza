@@ -5,8 +5,10 @@ public class ThreadExampleSynchronized {
 		
 		Thread threadA = new CounterThread(counterA);
 		Thread threadB = new CounterThread(counterA);
+		Thread threadC = new mom();
 		
 		threadA.start();
 		threadB.start();
+		threadC.start();
 	}
 }

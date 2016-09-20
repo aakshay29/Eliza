@@ -7,8 +7,14 @@ public class CounterThread extends Thread{
 	
 	public void run(){
 		for(int i = 0; i < 1000; i++){
+			try {
+				CounterThread.sleep(10);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
 			counter.add(100);
+			System.out.println(this.getName() + ":" + counter.getCounter());	
 		}
-		System.out.println(this.getName() + ":" + counter.getCounter());
 	}
+
 }
